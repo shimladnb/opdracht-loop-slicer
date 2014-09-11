@@ -31,16 +31,3 @@ done
 
 echo "KLAAR"
 
-#for (( c=1; c<=8; c++ ))
-#yolo
-
-
-#	git init
-#	git status
-#	untracked files in rood. toevoegen met git add
-#	git commit -am"VOER HUER JE TEKST IN"
-#	esq :wq
-#	git log --al --decorate --graph --oneline
-#	in bash rc; alias gitlog=git log --al --decorate --graph --oneline
-
-

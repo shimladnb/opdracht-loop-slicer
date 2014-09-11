@@ -13,7 +13,7 @@ fi
 
 SAMPLE=$(soxi -s $1)
 FILENAME=$1
-LENGTE=$(echo "scale=0; ($SAMPLE/2)/8" | bc)
+LENGTE=$(echo "scale=0; $SAMPLE/8" | bc)
 
 for c in `seq 1 8`;
 do

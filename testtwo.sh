@@ -21,7 +21,7 @@ do
 	END=$(echo "scale=0; $LENGTE*$c" | bc)
 	WOW=`basename $c`
 
-	sox $FILENAME ~/Desktop/output/${WOW}$1 trim ${START}s ${END}s
+	sox $FILENAME ~/Desktop/output/${WOW}$1 trim =${START}s =${END}s
 
 	echo "start is $START"
 	echo "end is $END"

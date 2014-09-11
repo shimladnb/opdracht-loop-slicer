@@ -26,7 +26,7 @@ do
 	echo "start is $START"
 	echo "end is $END"
 	echo
-	sleep 0.5
+
 done
 
 echo "KLAAR"
